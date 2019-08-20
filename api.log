@@ -1,0 +1,50 @@
+"2019-08-15 10:46:43 [restartedMain] INFO  c.m.crmSystem.CrmSystemApplication - Starting CrmSystemApplication on DESKTOP-12DRU7P with PID 15400 (D:\eclipse-workspace-projects\crmModule\target\classes started by User in D:\eclipse-workspace-projects\crmModule)
+""2019-08-15 10:46:43 [restartedMain] INFO  c.m.crmSystem.CrmSystemApplication - No active profile set, falling back to default profiles: default
+""2019-08-15 10:46:43 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2019-08-15 10:46:43 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2019-08-15 10:46:46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-08-15 10:46:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 105ms. Found 1 repository interfaces.
+""2019-08-15 10:46:47 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2b9bb099] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-08-15 10:46:48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$ab1bfdcb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-08-15 10:46:48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2019-08-15 10:46:48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2019-08-15 10:46:48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+""2019-08-15 10:46:49 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2019-08-15 10:46:49 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5767 ms
+""2019-08-15 10:46:50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2019-08-15 10:46:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2019-08-15 10:46:52 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-08-15 10:46:52 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+""2019-08-15 10:46:52 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2019-08-15 10:46:52 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+""2019-08-15 10:46:53 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+""2019-08-15 10:46:54 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-08-15 10:46:54 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2019-08-15 10:46:56 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+""2019-08-15 10:46:57 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+""2019-08-15 10:46:57 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2019-08-15 10:46:58 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4eac4d86, org.springframework.security.web.context.SecurityContextPersistenceFilter@1849314b, org.springframework.security.web.header.HeaderWriterFilter@12c7bb03, org.springframework.security.web.csrf.CsrfFilter@2f2fbe1c, org.springframework.security.web.authentication.logout.LogoutFilter@509b2019, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3d4dbbaf, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5e7beadd, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@45df9f9f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@551cf0e7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@329137f6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19033be6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36f1e0fa, org.springframework.security.web.session.SessionManagementFilter@6c0623b8, org.springframework.security.web.access.ExceptionTranslationFilter@1684d2f2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10a4ec15]
+""2019-08-15 10:46:58 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+""2019-08-15 10:46:58 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+""2019-08-15 10:46:58 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+""2019-08-15 10:46:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2019-08-15 10:46:59 [restartedMain] INFO  c.m.crmSystem.CrmSystemApplication - Started CrmSystemApplication in 16.831 seconds (JVM running for 17.932)
+""2019-08-15 10:47:02 [RMI TCP Connection(1)-172.17.31.91] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2019-08-15 10:47:02 [RMI TCP Connection(1)-172.17.31.91] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2019-08-15 10:47:02 [RMI TCP Connection(1)-172.17.31.91] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+""2019-08-15 10:47:14 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+""2019-08-15 10:47:18 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /crm/users
+""2019-08-15 10:47:20 [http-nio-8080-exec-9] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /users
+""2019-08-15 10:47:21 [http-nio-8080-exec-10] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /users
+""2019-08-15 10:47:33 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /crm/users/all
+""2019-08-15 10:47:46 [http-nio-8080-exec-4] INFO  c.m.crmSystem.CrmSystemApplication - get all users successfully!
+""2019-08-15 10:47:46 [http-nio-8080-exec-4] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2019-08-15 10:47:58 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /users/all/1
+""2019-08-15 10:48:04 [http-nio-8080-exec-7] INFO  c.m.crmSystem.CrmSystemApplication - Get the user successfully!
+""2019-08-15 10:48:08 [http-nio-8080-exec-9] INFO  c.m.crmSystem.CrmSystemApplication - Get the user successfully!
+""2019-08-15 10:50:25 [Thread-6] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-08-15 10:50:25 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2019-08-15 10:50:25 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+"
